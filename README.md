@@ -1,4 +1,5 @@
-=== Custom Backorder Messages For Woocommerce ===
+# Custom Backorder Messages For Woocommerce
+
 Contributors: gregbast1994
 Donate link: https://gregbastianelli.com
 Tags: woocommerce, backorders, wc-backorder, stock-settings, manage stock, backorder messages, custom
@@ -9,11 +10,11 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Allows the author to provide a product or variation a custom backorder message. 
+## Description
+
+Allows the author to provide a product or variation a custom backorder message.
 
 This is useful when you've got a hot item but no stock until January 2021.
-
-== Description ==
 
 https://www.youtube.com/watch?v=PgFuU565-h0
 
@@ -21,28 +22,23 @@ This is a simple plugin which adds a "backorder message" field to the Edit Produ
 
 The field is located in two spots - depending on the product type.
 
-
-== Usage ==
+## Usage
 
 Usage is easy - there is no configuration just added fields to your simple and variation products.
 
-===SIMPLE PRODUCTS===
+### SIMPLE PRODUCTS
 
-1. How to setup a custom backorder message on simple products
+<img src="./assets/screenshot-1.jpg" />
 
 - Field is located at Edit Product > Product Details > Inventory.
 - Write your custom message
 - Set allow backorders to "allow, but notify".
 
-===VARIATION PRODUCTS===
+### VARIATION PRODUCTS
 
+<img src="./assets/screenshot-2.jpg" />
 
-2. How to setup a custom backorder message on variation products
-
-- Field is is located at Edit Product > Product Details > Variations. 
-- Select a varation and check "Manage Inventory". 
+- Field is is located at Edit Product > Product Details > Variations.
+- Select a varation and check "Manage Inventory".
 - Write your custom message.
 - Set allow backorders to "allow, but notify".
-
-
-
