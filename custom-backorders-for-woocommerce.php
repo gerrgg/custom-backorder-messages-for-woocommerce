@@ -128,7 +128,7 @@ class Custom_Backorders_For_Woocommerce
      * @param int $post_id
      */
     if (isset($_POST[$this->key])) {
-      update_post_meta($post_id, $this->key, $_POST[$this->key]);
+      update_post_meta($post_id, $this->key, sanitize_text_field($_POST[$this->key]));
     }
   }
 
@@ -140,7 +140,7 @@ class Custom_Backorders_For_Woocommerce
      * @param int $i - this variations position in the loop
      */
     if (isset($_POST[$this->key])) {
-      update_post_meta($variation_id, $this->key, $_POST[$this->key][$i]);
+      update_post_meta($variation_id, $this->key, sanitize_text_field($_POST[$this->key][$i]));
     }
   }
 
