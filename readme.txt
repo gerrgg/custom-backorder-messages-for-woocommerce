@@ -3,7 +3,7 @@ Contributors: gregbast1994
 Donate link: https://gregbastianelli.com
 Tags: woocommerce, backorders, wc-backorder, stock-settings, manage stock, backorder messages, custom
 Requires at least: 4.0
-Tested up to: 5.4.2
+Tested up to: 5.6
 Stable tag: master
 Requires PHP: 7.0
 License: GPLv2 or later
