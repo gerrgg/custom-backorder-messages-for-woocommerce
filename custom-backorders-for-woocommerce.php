@@ -3,7 +3,7 @@
  * Plugin Name:       Custom Backorders for Woocommerce
  * Plugin URI:        https://gregbastianelli.com
  * Description:       Allows the author to provide a product or variation a custom backorder message. 
- * Version:           1
+ * Version:           1.1
  * Author:            gregbast1994
  * Author URI:        http://gregbastianelli.com/
  * License:           GPL v2 or later
