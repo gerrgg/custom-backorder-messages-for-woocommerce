@@ -152,7 +152,7 @@ class Custom_Backorders_For_Woocommerce
      * @param WC_Product $product
      */
 
-    if (!$product->managing_stock() || !$product->is_on_backorder(1)) {
+    if (!$product->managing_stock() && !$product->is_on_backorder(1)) {
       return;
     }
 
