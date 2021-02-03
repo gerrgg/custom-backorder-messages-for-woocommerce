@@ -152,8 +152,8 @@ class Custom_Backorders_For_Woocommerce
      * @param WC_Product $product
      */
 
-    if (!$product->managing_stock() && !$product->is_on_backorder(1)) {
-      return;
+    if (!$product->managing_stock() || !$product->is_on_backorder(1)) {
+      return $text;
     }
 
     $backorder_message = get_post_meta(
